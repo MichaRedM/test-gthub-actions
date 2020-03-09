@@ -31,6 +31,7 @@ jobs:
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Continuos Integration"
+        git add hw.txt
         git commit -m 'add hw'
         git push
         
